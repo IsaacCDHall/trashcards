@@ -28,7 +28,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-  background-color: skyblue;
+  background-color: #bdd3de;
+  font-family: Dosis;
 }
 ol, ul {
 	list-style: none;
@@ -55,10 +56,12 @@ table {
 h1  {
   text-align: center;
   margin: 30px;
+  font-size: 50px;
+  font-weight: bold;
 }
 
 .col-xs-3 {
-  background-color: skyblue;
+  background-color: #bdd3de;
   height: 200px;
 }
 
@@ -72,14 +75,16 @@ div.flash-card {
 }
 
 .front {
-  background-color: gray;
-  height: 100%;
+  border: 10px solid black;
+  background-color: #f0f0df;
   border-radius: 20px;
 }
 
 .back {
+  font-size: 18px;
+  border: 10px solid #FF8F00;
   background-color: black;
-  color: white;
+  color: #FF8F00;
   border-radius: 20px;
   height: 190px;
   display: none;
