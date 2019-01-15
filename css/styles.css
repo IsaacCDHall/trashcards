@@ -28,7 +28,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-  background-color: #bdd3de;
+  background-color: #BDD3DE;
   font-family: Dosis;
 }
 ol, ul {
@@ -54,14 +54,31 @@ table {
 
 
 h1  {
+  color: #3F5866;
   text-align: center;
   margin: 30px;
   font-size: 50px;
   font-weight: bold;
 }
 
+.theme {
+  width: 75px;
+  height: 75px;
+  float: right;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.dark-theme {
+  background-color: #3F5866;
+}
+
+
+.light {
+  display: none;
+}
+
 .col-xs-3 {
-  background-color: #bdd3de;
   height: 200px;
 }
 
@@ -102,4 +119,8 @@ div.flash-card {
 h3 {
   text-align: center;
   vertical-align: middle;
+}
+
+.dark-header {
+  color: #BDD3DE;
 }
