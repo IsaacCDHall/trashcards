@@ -1,9 +1,11 @@
 $(document).ready(function(){
   $(function(){
       $(".flip").flip({
+          axis: 'x',
           trigger: 'click'
       });
   });
+
 $(".theme").click(function() {
   $('body').toggleClass('dark-theme');
   $('.col-xs-3').toggleClass('dark-theme');
